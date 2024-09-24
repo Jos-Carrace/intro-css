@@ -63,3 +63,55 @@ transition: background-color 0.3s ease;
 .estilo:hover{
     background-color: rgb(126, 185, 185);
 }
+
+.cta-button{
+    background-color: orange;
+    color: white;
+    padding: 10px 2px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 23px;
+}
+
+.cta-button:hover{
+    background-color: rgb(167, 111, 7);
+}
+
+.menu-contenedor{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-top: 15px;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover{
+transform: translateY(-10px);
+scale: 1.05;
+}
+
+.card img{
+   width: 100%; 
+   object-fit: cover;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+footer{
+    background-color:  rgb(252, 227, 137);
+    text-align: center;
+    padding: 18px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
